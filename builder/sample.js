@@ -1,0 +1,2 @@
+MenuDirector('simple');
+MenuDirector('destine');

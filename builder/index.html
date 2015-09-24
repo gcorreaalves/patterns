@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Builder</title>
+</head>
+<body>
+  <h1>Builder</h1>
+  <p>
+    Builder é um padrão de projeto que permite a separação da
+    construção de um objeto complexo da sua representação, de forma que o mesmo
+    processo de construção possa criar diferentes representações.
+  </p>
+  <p>
+    O padrão Builder, da forma como foi descrito no livro Design Patterns: Elements of Reusable Object-Oriented Software, contém os seguintes elementos:
+  </p>
+  <ul>
+    <li>
+      director — constrói um objeto utilizando a interface do builder;
+    </li>
+    <li>
+      builder — especifica uma interface para um construtor de partes do objeto-produto;
+    </li>
+    <li>
+      concrete builder — define uma implementação da interface builder, mantém a representação que cria e fornece interface para recuperação do produto;
+    </li>
+    <li>
+      product — o objeto complexo acabado de construir. Inclui classes que definem as partes constituintes.
+    </li>
+  </ul>
+  <script src="pattern.js"></script>
+  <script src="sample.js"></script>
+</body>
+</html>
